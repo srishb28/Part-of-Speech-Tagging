@@ -9,7 +9,7 @@ This data set contains tweets annotated with their universal parts-of-speech tag
 The format of the data files is pretty straight forward. It contains a line for each token (with its label separated by a whitespace), and with sentences separated with empty line. See the below example an example, and examine the text files yourself (always a good idea).
 
 @paulwalk X It PRON 's VERB the DET view NOUN from ADP where ADV I PRON 'm VERB living VERB for ADP two NUM weeks NOUN . . Empire NOUN State NOUN Building NOUN = X ESB NOUN . . Pretty ADV bad ADJ storm NOUN here ADV last ADJ evening NOUN
-Files
+2. Files
 data.py: The primary entry point that reads the data, and trains and evaluates the tagger implementation.
 
 usage: python data.py [-h] [-m MODEL] [--test]
